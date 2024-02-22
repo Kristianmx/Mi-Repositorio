@@ -1,0 +1,126 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    width: 100%;
+}
+.frame-nav{
+    display: flex;
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.568);
+}
+.imagen{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen img{
+    width: 8rem;
+    height: 8rem;
+}
+
+.frame-nav ul{
+display: flex;
+align-items: center;
+justify-content: space-around;
+width: 80%;
+}
+.frame-nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    border: solid 1px orange;
+    border-radius: 2rem;
+}
+.frame-nav ul li a:hover{
+    background-color:orange;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+
+body section{
+    width: 95%;
+    border-radius: 2rem;
+    border: solid 1px orange;
+    background-color: rgba(127, 255, 212, 0.247);
+    margin-bottom: 1rem;
+}
+
+/*Formulario*/
+
+.formulario{
+    width: 450px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+}
+
+.formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.formulario h4{
+   font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.formulario a{
+    text-decoration: none;
+   background-color: rgba(82, 134, 179,0.0);
+   color: rgb(85, 194, 52);
+}
+.formulario a:hover{
+    color: #1f53c5;
+    text-decoration: underline;
+}
+.controles{
+    width: 100%;
+    background-color: #24303c ;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+}
+
+.formulario .boton{
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  
+}
+.formulario h4{
+    color: #1f53c5;
+    text-align: center;
+}
+.mapa{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+}
