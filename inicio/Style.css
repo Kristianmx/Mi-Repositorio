@@ -17,11 +17,13 @@ body{
 }
 nav{
     width: 100%;
+    margin-bottom: 2rem;
 }
 .frame-nav{
     display: flex;
     width: 100%;
     background-color: rgba(240, 255, 255, 0.568);
+ 
 }
 .imagen{
     width: 20%;
@@ -39,11 +41,15 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 width: 80%;
+background-color:#6b5cff ;
+border-top-left-radius: 1.5rem;
+border-bottom-left-radius: 1.5rem;
 }
 .frame-nav ul li a {
     text-decoration: none;
     color: black;
     padding: 1rem 2rem;
+    background-color: rgba(1, 7, 14, 0.301);
     border: solid 1px orange;
     border-radius: 2rem;
 }
